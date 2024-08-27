@@ -1,0 +1,395 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>증권과 투자 따라잡기 문제 풀기</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .question p {
+            font-weight: bold;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .submit-btn {
+            margin-top: 20px;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>증권과 투자 따라잡기 - 객관식 문제</h1>
+
+    <div id="quiz">
+        <!-- 문제 1 -->
+        <div class="question">
+            <p>1. 금융시장의 주요 기능은 무엇인가?</p>
+            <div class="options">
+                <label><input type="radio" name="q1" value="a"> a) 자금의 조달과 운용</label>
+                <label><input type="radio" name="q1" value="b"> b) 부동산 거래 중개</label>
+                <label><input type="radio" name="q1" value="c"> c) 주식 발행 및 배당</label>
+                <label><input type="radio" name="q1" value="d"> d) 보험 상품 판매</label>
+            </div>
+        </div>
+
+        <!-- 문제 2 -->
+        <div class="question">
+            <p>2. 금융시장은 어떻게 구분될 수 있는가?</p>
+            <div class="options">
+                <label><input type="radio" name="q2" value="a"> a) 국내 금융과 해외 금융</label>
+                <label><input type="radio" name="q2" value="b"> b) 직접금융과 간접금융</label>
+                <label><input type="radio" name="q2" value="c"> c) 장기금융과 단기금융</label>
+                <label><input type="radio" name="q2" value="d"> d) 개인 금융과 기업 금융</label>
+            </div>
+        </div>
+
+        <!-- 문제 3 -->
+        <div class="question">
+            <p>3. 증권시장은 어떤 두 가지 시장으로 구분되는가?</p>
+            <div class="options">
+                <label><input type="radio" name="q3" value="a"> a) 발행시장과 유통시장</label>
+                <label><input type="radio" name="q3" value="b"> b) 주식시장과 채권시장</label>
+                <label><input type="radio" name="q3" value="c"> c) 선물시장과 옵션시장</label>
+                <label><input type="radio" name="q3" value="d"> d) 국내시장과 국제시장</label>
+            </div>
+        </div>
+
+        <!-- 문제 4 -->
+        <div class="question">
+            <p>4. 증권시장에서의 발행시장은 무엇을 의미하는가?</p>
+            <div class="options">
+                <label><input type="radio" name="q4" value="a"> a) 기업이 주식을 처음으로 발행하는 시장</label>
+                <label><input type="radio" name="q4" value="b"> b) 이미 발행된 증권이 거래되는 시장</label>
+                <label><input type="radio" name="q4" value="c"> c) 외환이 거래되는 시장</label>
+                <label><input type="radio" name="q4" value="d"> d) 정부가 국채를 발행하는 시장</label>
+            </div>
+        </div>
+
+        <!-- 문제 5 -->
+        <div class="question">
+            <p>5. 증권시장의 주요 기능에 포함되지 않는 것은?</p>
+            <div class="options">
+                <label><input type="radio" name="q5" value="a"> a) 자본의 효율적 배분</label>
+                <label><input type="radio" name="q5" value="b"> b) 정부의 재정 금융정책 실현</label>
+                <label><input type="radio" name="q5" value="c"> c) 경제적 민주주의 실현</label>
+                <label><input type="radio" name="q5" value="d"> d) 국제 금융 거래 지원</label>
+            </div>
+        </div>
+
+        <!-- 문제 6 -->
+        <div class="question">
+            <p>6. 주식의 일반적인 종류에 포함되지 않는 것은?</p>
+            <div class="options">
+                <label><input type="radio" name="q6" value="a"> a) 보통주</label>
+                <label><input type="radio" name="q6" value="b"> b) 우선주</label>
+                <label><input type="radio" name="q6" value="c"> c) 후배주</label>
+                <label><input type="radio" name="q6" value="d"> d) 실물주</label>
+            </div>
+        </div>
+
+        <!-- 문제 7 -->
+        <div class="question">
+            <p>7. 주식회사는 주식을 통해 어떤 형태의 자본을 모으는가?</p>
+            <div class="options">
+                <label><input type="radio" name="q7" value="a"> a) 자기자본</label>
+                <label><input type="radio" name="q7" value="b"> b) 타인자본</label>
+                <label><input type="radio" name="q7" value="c"> c) 외부자본</label>
+                <label><input type="radio" name="q7" value="d"> d) 정부자본</label>
+            </div>
+        </div>
+
+        <!-- 문제 8 -->
+        <div class="question">
+            <p>8. 유상증자는 무엇을 의미하는가?</p>
+            <div class="options">
+                <label><input type="radio" name="q8" value="a"> a) 기존 주주에게 무료로 주식을 배부하는 것</label>
+                <label><input type="radio" name="q8" value="b"> b) 새로운 주식을 발행하여 자금을 조달하는 것</label>
+                <label><input type="radio" name="q8" value="c"> c) 기업이 발행한 채권을 상환하는 것</label>
+                <label><input type="radio" name="q8" value="d"> d) 주식을 시장에 매각하는 것</label>
+            </div>
+        </div>
+
+        <!-- 문제 9 -->
+        <div class="question">
+            <p>9. 기업공개(IPO)의 주요 효과로 맞지 않는 것은?</p>
+            <div class="options">
+                <label><input type="radio" name="q9" value="a"> a) 자금조달 능력 증대</label>
+                <label><input type="radio" name="q9" value="b"> b) 경영의 합리화</label>
+                <label><input type="radio" name="q9" value="c"> c) 주식의 소유 집중화</label>
+                <label><input type="radio" name="q9" value="d"> d) 투자자 계층의 확대</label>
+            </div>
+        </div>
+
+        <!-- 문제 10 -->
+        <div class="question">
+            <p>10. 주식 발행 시 주관회사의 역할은 무엇인가?</p>
+            <div class="options">
+                <label><input type="radio" name="q10" value="a"> a) 주식을 직접 구매하는 것</label>
+                <label><input type="radio" name="q10" value="b"> b) 발행회사의 자금조달을 돕는 것</label>
+                <label><input type="radio" name="q10" value="c"> c) 주식을 재판매하는 것</label>
+                <label><input type="radio" name="q10" value="d"> d) 주식 시장을 조성하는 것</label>
+            </div>
+        </div>
+
+        <!-- 문제 11 -->
+        <div class="question">
+            <p>11. 채권시장의 기본적인 특성 중 틀린 것은?</p>
+            <div class="options">
+                <label><input type="radio" name="q11" value="a"> a) 채권은 발행자가 상환 의무를 지닌다.</label>
+                <label><input type="radio" name="q11" value="b"> b) 채권의 이자는 주기적으로 지급된다.</label>
+                <label><input type="radio" name="q11" value="c"> c) 채권은 주식과 달리 소유권을 대표한다.</label>
+                <label><input type="radio" name="q11" value="d"> d) 채권의 원금은 만기일에 상환된다.</label>
+            </div>
+        </div>
+
+        <!-- 문제 12 -->
+        <div class="question">
+            <p>12. 채권의 발행시장은 어떤 시장인가?</p>
+            <div class="options">
+                <label><input type="radio" name="q12" value="a"> a) 기존 채권이 거래되는 시장</label>
+                <label><input type="radio" name="q12" value="b"> b) 새로 발행되는 채권이 거래되는 시장</label>
+                <label><input type="radio" name="q12" value="c"> c) 외환이 거래되는 시장</label>
+                <label><input type="radio" name="q12" value="d"> d) 주식이 발행되는 시장</label>
+            </div>
+        </div>
+
+        <!-- 문제 13 -->
+        <div class="question">
+            <p>13. 채권의 유통시장은 무엇을 의미하는가?</p>
+            <div class="options">
+                <label><input type="radio" name="q13" value="a"> a) 정부가 발행하는 시장</label>
+                <label><input type="radio" name="q13" value="b"> b) 채권이 새로 발행되는 시장</label>
+                <label><input type="radio" name="q13" value="c"> c) 발행된 채권이 거래되는 시장</label>
+                <label><input type="radio" name="q13" value="d"> d) 기업이 채권을 매입하는 시장</label>
+            </div>
+        </div>
+
+        <!-- 문제 14 -->
+        <div class="question">
+            <p>14. 채권과 주식의 차이로 맞는 것은?</p>
+            <div class="options">
+                <label><input type="radio" name="q14" value="a"> a) 채권은 소유권을 나타내며 주식은 채무를 나타낸다.</label>
+                <label><input type="radio" name="q14" value="b"> b) 채권은 이자를 지급하며 주식은 배당을 지급한다.</label>
+                <label><input type="radio" name="q14" value="c"> c) 채권은 무기한 소유 가능하나 주식은 만기일이 있다.</label>
+                <label><input type="radio" name="q14" value="d"> d) 주식은 원금이 보장되나 채권은 원금이 보장되지 않는다.</label>
+            </div>
+        </div>
+
+        <!-- 문제 15 -->
+        <div class="question">
+            <p>15. 채권의 발행 목적 중 맞지 않는 것은?</p>
+            <div class="options">
+                <label><input type="radio" name="q15" value="a"> a) 기업의 설비 투자</label>
+                <label><input type="radio" name="q15" value="b"> b) 단기 금융상품 구매</label>
+                <label><input type="radio" name="q15" value="c"> c) 정부의 사회간접자본 건설</label>
+                <label><input type="radio" name="q15" value="d"> d) 정부의 재정 자금 마련</label>
+            </div>
+        </div>
+
+        <!-- 문제 16 -->
+        <div class="question">
+            <p>16. 선물의 기본 개념은 무엇인가?</p>
+            <div class="options">
+                <label><input type="radio" name="q16" value="a"> a) 현물 거래를 통해 즉시 구매하는 것</label>
+                <label><input type="radio" name="q16" value="b"> b) 미래 일정 시점에 특정 가격으로 자산을 구매하기로 하는 계약</label>
+                <label><input type="radio" name="q16" value="c"> c) 주식 거래에서의 배당금</label>
+                <label><input type="radio" name="q16" value="d"> d) 채권의 이자를 미래에 받는 것</label>
+            </div>
+        </div>
+
+        <!-- 문제 17 -->
+        <div class="question">
+            <p>17. 옵션이란 무엇을 의미하는가?</p>
+            <div class="options">
+                <label><input type="radio" name="q17" value="a"> a) 구매자가 일정 기간 동안 특정 자산을 일정 가격에 구매하거나 판매할 수 있는 권리</label>
+                <label><input type="radio" name="q17" value="b"> b) 채권을 발행하는 회사의 권리</label>
+                <label><input type="radio" name="q17" value="c"> c) 주식의 소유권을 매매하는 계약</label>
+                <label><input type="radio" name="q17" value="d"> d) 선물 계약의 의무를 지는 것</label>
+            </div>
+        </div>
+
+        <!-- 문제 18 -->
+        <div class="question">
+            <p>18. 파생상품의 주요 기능은 무엇인가?</p>
+            <div class="options">
+                <label><input type="radio" name="q18" value="a"> a) 가격 변동의 위험을 관리하는 것</label>
+                <label><input type="radio" name="q18" value="b"> b) 새로운 주식을 발행하는 것</label>
+                <label><input type="radio" name="q18" value="c"> c) 기업의 부채를 상환하는 것</label>
+                <label><input type="radio" name="q18" value="d"> d) 현금으로 거래하는 것</label>
+            </div>
+        </div>
+
+        <!-- 문제 19 -->
+        <div class="question">
+            <p>19. 선물 시장에서의 KOSPI 200 주가지수선물이란 무엇인가?</p>
+            <div class="options">
+                <label><input type="radio" name="q19" value="a"> a) KOSPI 200에 포함된 주식을 거래하는 것</label>
+                <label><input type="radio" name="q19" value="b"> b) KOSPI 200 주가지수를 기반으로 한 선물 계약</label>
+                <label><input type="radio" name="q19" value="c"> c) KOSPI 200의 개별 주식을 매매하는 것</label>
+                <label><input type="radio" name="q19" value="d"> d) KOSPI 200의 배당금을 거래하는 것</label>
+            </div>
+        </div>
+
+        <!-- 문제 20 -->
+        <div class="question">
+            <p>20. 스프레드 거래는 무엇을 의미하는가?</p>
+            <div class="options">
+                <label><input type="radio" name="q20" value="a"> a) 동일한 자산의 선물 가격 차이에 기반한 거래</label>
+                <label><input type="radio" name="q20" value="b"> b) 주식과 채권의 거래</label>
+                <label><input type="radio" name="q20" value="c"> c) 외환과 금의 거래</label>
+                <label><input type="radio" name="q20" value="d"> d) 동일 자산의 현물과 선물을 동시에 거래하는 것</label>
+            </div>
+        </div>
+
+        <!-- 문제 21 -->
+        <div class="question">
+            <p>21. 상장 제도의 주요 목적은 무엇인가?</p>
+            <div class="options">
+                <label><input type="radio" name="q21" value="a"> a) 기업의 주식이 증권 시장에서 거래될 수 있도록 하는 것</label>
+                <label><input type="radio" name="q21" value="b"> b) 기업이 채권을 발행할 수 있도록 하는 것</label>
+                <label><input type="radio" name="q21" value="c"> c) 정부가 국채를 발행할 수 있도록 하는 것</label>
+                <label><input type="radio" name="q21" value="d"> d) 외환 거래를 가능하게 하는 것</label>
+            </div>
+        </div>
+
+        <!-- 문제 22 -->
+        <div class="question">
+            <p>22. 공시 제도의 기능 중 맞는 것은?</p>
+            <div class="options">
+                <label><input type="radio" name="q22" value="a"> a) 기업의 비공개 정보를 유지하는 것</label>
+                <label><input type="radio" name="q22" value="b"> b) 기업의 주요 정보를 공공에게 공개하는 것</label>
+                <label><input type="radio" name="q22" value="c"> c) 채권 발행 조건을 비공개로 설정하는 것</label>
+                <label><input type="radio" name="q22" value="d"> d) 주식의 가격을 조작하는 것</label>
+            </div>
+        </div>
+
+        <!-- 문제 23 -->
+        <div class="question">
+            <p>23. 불공정 거래에 대한 규제의 목적은 무엇인가?</p>
+            <div class="options">
+                <label><input type="radio" name="q23" value="a"> a) 주식의 가격을 조작하기 위한 것</label>
+                <label><input type="radio" name="q23" value="b"> b) 투자자의 권익을 보호하기 위한 것</label>
+                <label><input type="radio" name="q23" value="c"> c) 외환 거래를 자유롭게 하기 위한 것</label>
+                <label><input type="radio" name="q23" value="d"> d) 기업의 자금 조달을 방해하기 위한 것</label>
+            </div>
+        </div>
+
+        <!-- 문제 24 -->
+        <div class="question">
+            <p>24. 상장 폐지는 무엇을 의미하는가?</p>
+            <div class="options">
+                <label><input type="radio" name="q24" value="a"> a) 기업이 자발적으로 주식을 발행하는 것</label>
+                <label><input type="radio" name="q24" value="b"> b) 주식이 증권 시장에서 더 이상 거래되지 않는 것</label>
+                <label><input type="radio" name="q24" value="c"> c) 정부가 채권을 상환하는 것</label>
+                <label><input type="radio" name="q24" value="d"> d) 기업이 새로운 주식을 발행하는 것</label>
+            </div>
+        </div>
+
+        <!-- 문제 25 -->
+        <div class="question">
+            <p>25. 심리 및 감리 제도의 목적은 무엇인가?</p>
+            <div class="options">
+                <label><input type="radio" name="q25" value="a"> a) 금융 기관의 투자를 촉진하기 위한 것</label>
+                <label><input type="radio" name="q25" value="b"> b) 증권 시장의 투명성과 공정성을 유지하기 위한 것</label>
+                <label><input type="radio" name="q25" value="c"> c) 외환 거래의 자유화를 위한 것</label>
+                <label><input type="radio" name="q25" value="d"> d) 주식의 가격 변동성을 높이기 위한 것</label>
+            </div>
+        </div>
+
+        <!-- 문제 26 -->
+        <div class="question">
+            <p>26. 증권투자의 주요 목적은 무엇인가?</p>
+            <div class="options">
+                <label><input type="radio" name="q26" value="a"> a) 금융기관의 부채 증가</label>
+                <label><input type="radio" name="q26" value="b"> b) 자산의 수익과 위험 관리</label>
+                <label><input type="radio" name="q26" value="c"> c) 외환 거래의 확장</label>
+                <label><input type="radio" name="q26" value="d"> d) 정부의 재정 관리</label>
+            </div>
+        </div>
+
+        <!-- 문제 27 -->
+        <div class="question">
+            <p>27. 포트폴리오 투자의 주요 장점은 무엇인가?</p>
+            <div class="options">
+                <label><input type="radio" name="q27" value="a"> a) 특정 자산에 집중된 투자</label>
+                <label><input type="radio" name="q27" value="b"> b) 다양한 자산에 분산된 투자</label>
+                <label><input type="radio" name="q27" value="c"> c) 채권만으로 구성된 투자</label>
+                <label><input type="radio" name="q27" value="d"> d) 주식만으로 구성된 투자</label>
+            </div>
+        </div>
+
+        <!-- 문제 28 -->
+        <div class="question">
+            <p>28. 증권투자의 위험에 포함되지 않는 것은?</p>
+            <div class="options">
+                <label><input type="radio" name="q28" value="a"> a) 시장 위험</label>
+                <label><input type="radio" name="q28" value="b"> b) 금리 위험</label>
+                <label><input type="radio" name="q28" value="c"> c) 환율 위험</label>
+                <label><input type="radio" name="q28" value="d"> d) 물가 상승의 위험</label>
+            </div>
+        </div>
+
+        <!-- 문제 29 -->
+        <div class="question">
+            <p>29. 증권투자의 수익은 어떻게 구성되는가?</p>
+            <div class="options">
+                <label><input type="radio" name="q29" value="a"> a) 이자와 배당 수익</label>
+                <label><input type="radio" name="q29" value="b"> b) 채권의 원금 상환</label>
+                <label><input type="radio" name="q29" value="c"> c) 외환 거래 수익</label>
+                <label><input type="radio" name="q29" value="d"> d) 금 거래 수익</label>
+            </div>
+        </div>
+
+        <!-- 문제 30 -->
+        <div class="question">
+            <p>30. 주가지수는 무엇을 의미하는가?</p>
+            <div class="options">
+                <label><input type="radio" name="q30" value="a"> a) 특정 시점의 주식 가격 변동을 나타내는 지표</label>
+                <label><input type="radio" name="q30" value="b"> b) 특정 주식의 배당금을 나타내는 지표</label>
+                <label><input type="radio" name="q30" value="c"> c) 기업의 자산 가치를 나타내는 지표</label>
+                <label><input type="radio" name="q30" value="d"> d) 외환 거래의 평균 가격을 나타내는 지표</label>
+            </div>
+        </div>
+
+        <button class="submit-btn" onclick="checkAnswers()">제출하기</button>
+
+        <div class="result" id="result"></div>
+    </div>
+
+    <script>
+        function checkAnswers() {
+            let score = 0;
+
+            // 정답을 배열로 정의
+            const answers = ['a', 'b', 'a', 'a', 'd', 'd', 'a', 'b', 'c', 'b', 'c', 'b', 'c', 'b', 'b', 'b', 'a', 'a', 'b', 'a', 'a', 'b', 'b', 'b', 'b', 'b', 'b', 'd', 'a', 'a'];
+
+            // 학생이 선택한 답안 가져오기
+            for (let i = 1; i <= answers.length; i++) {
+                const selected = document.querySelector(`input[name="q${i}"]:checked`);
+                if (selected && selected.value === answers[i-1]) {
+                    score++;
+                }
+            }
+
+            // 결과 표시
+            const result = document.getElementById('result');
+            result.textContent = `당신의 점수는 ${score} / 30 입니다.`;
+        }
+    </script>
+
+</body>
+</html>
